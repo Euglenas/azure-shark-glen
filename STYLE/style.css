@@ -1,0 +1,87 @@
+/*General Styles*/
+* {
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+  border:1px solid pink;
+}
+
+
+body{
+    background-color:white;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-size:12px
+    letter-spacing:3px
+    line-hieght:1.5
+    line-weight:normal
+
+
+    <!-- '../images/nameoffile.png' -->
+    background-image:url('../images/background.png')
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Poiret One', cursive;
+}
+
+/* Header Styles */
+
+header{
+  /* '../images/nameoffile.png' */
+  background-image:url('../images/backgrounddefault.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70-100vh;
+}
+
+.MainTitle{
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+}
+
+#AboutMe{ /*This is the section with the ID of AboutMe */
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+}
+.AboutMe{ /*This is the div inside the section with the CLASS of AboutMe */
+  width:60%;
+  padding: 5%;
+  background-color: white;
+}
+
+/* SKILLS SECTION */
+#Skills {
+  text-align: center;
+}
+
+#Skills p{
+  text-align: justify;
+}
+
+/* THIS IS THE MAP */
+#map {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#Experience {
+  text-align: center;
+}
+
+#Experience p{
+  text-align: justify;
+}
+
+/* THIS IS THE YOUTUBE VIDEO */
+
+#YouTube {
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+}
